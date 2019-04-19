@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name = "viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="images/favicon.png" sizes="16x16">
+  <title>Meet Me At UMMA | Contact</title>
+</head>
+<body>
+    <a class="skiptomain" href=#content>Skip to Content</a>
+
+  <header>
+    <img id="at" src="images/favicon.png" alt="Meet Me At UMMA 'at' logo"/>
+    <img id="logo" src="images/meetmelogo.png" alt="Meet Me at UMMA Logo"/>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a class="current" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+
+    <div id="contact">
+    <!-- <img width="600" src="images/odonoghue.jpg" alt="Collage painting with gold, gray and beige colors"/> -->
+      <div id="transparent">
+        <h1>Contact Meet Me at UMMA</h1>
+        <form name="contactform" method="POST" action="https://formspree.io/bribrode@umich.edu">
+          <fieldset>
+            <!-- <legend>Contact Inforamtion:</legend> -->
+            <label for="name">Name:</label>
+            <input id = "name" name="name" aria-label="Name:" type="text" placeholder="Jane Doe">
+            <label for="email">Email:</label>
+            <input id = "email" name="email" aria-label="Email:" type="email" placeholder = "user@email.com">
+            <label for="phone">Phone:</label>
+            <input id="phone" name="phone" aria-label="Phone:" type="tel" placeholder="123-456-7890">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" aria-label="Message:" placeholder="Your Message Here"></textarea>
+            <input id="submit" type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </main>
+      <br>
+    <footer>
+      <p>&copy; Meet Me At UMMA 2019<p>
+    </footer>
+    <script  src="js/script.js"></script>
+
+</body>
+
+</html>
